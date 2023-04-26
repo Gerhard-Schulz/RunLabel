@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="MainWindow" Height="100" Width="1500">
+        Title="Предупреждение!" Height="100" Width="1500">
     <Grid>
         <Canvas x:Name="Canvas" Background="Transparent" Height="25"
                 VerticalAlignment="Top">
@@ -16,7 +16,7 @@
                         <EventTrigger.Actions>
                             <BeginStoryboard>
                                 <Storyboard>
-                                    <DoubleAnimation Storyboard.TargetProperty="(Canvas.Left)" From="1300" To="-750" 
+                                    <DoubleAnimation Storyboard.TargetProperty="(Canvas.Left)" From="1600" To="-2100" 
                                                      Duration="0:0:15" RepeatBehavior="Forever"/>
                                 </Storyboard>
                             </BeginStoryboard>
